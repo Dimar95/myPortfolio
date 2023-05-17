@@ -1,0 +1,43 @@
+.container{
+    max-width: 1280px;
+margin: 0 auto;
+position: relative;
+
+}
+.world{
+font-weight: 600;
+font-size: 250px;
+line-height: 17px;
+letter-spacing: 0.03em;
+color: rgba(196, 196, 196, 0.15);
+margin-top: 110px;
+margin-bottom: 0;
+text-align: end;
+
+}
+.hello{
+font-weight: 600;
+font-size: 270px;
+line-height: 17px;
+margin: 0;
+align-items: center;
+letter-spacing: 0.03em;
+color: rgba(196, 196, 196, 0.15);
+transform: rotate(-90deg);
+position: absolute;
+top: 265px;
+left: -200px;
+}
+.text{
+    font-weight: 500;
+    font-size: 50px;
+
+    text-align: center;
+    color: #FFFFFF;
+}
+.textDesc{
+    font-size: 24px;
+    align-items: center;
+    
+    color: #FFFFFF; 
+}

@@ -1,0 +1,54 @@
+.logo{
+    margin: 13px 92px -20px 92px;
+    width: 92px;
+}
+.mainHeader{
+
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+.headerNav{
+    display: flex;
+    margin: 0 auto;
+    width: 1280px;
+    align-items: center;
+    justify-content: space-around;
+}
+.link{
+font-weight: 600;
+font-size: 28px;
+line-height: 17px;
+display: flex;
+align-items: center;
+text-align: center;
+position: relative;
+cursor: pointer;
+text-decoration: none; 
+color: #FFFFFF;
+}
+.link:after {
+	content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px; 
+    background-color: rgb(255, 255, 255); 
+    transition: width 0.5s; 
+}
+.link:hover{
+    color: #a3a3a3;
+
+}
+.link:hover:after {
+	content: "";
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px; 
+    background-color: #a3a3a3;
+    transition: width 0.5s;  
+}

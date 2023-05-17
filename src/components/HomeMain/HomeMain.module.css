@@ -1,0 +1,37 @@
+.circle1{
+    position: absolute;
+width: 818px;
+height: 818px;
+left: -71.17px;
+top: -321px;
+background: rgba(82, 82, 82, 0.212);
+
+border-radius: 409px;
+}
+.circle2{
+    position: absolute;
+width: 479.3px;
+height: 484px;
+left: 858.71px;
+top: 403px;
+background: rgba(82, 82, 82, 0.212);
+border-radius: 409px;
+}
+.circle3{position: absolute;
+    width: 394.13px;
+    height: 398px;
+    left: 1045.87px;
+    top: -111px;
+    
+    background: rgba(82, 82, 82, 0.212);
+
+    border-radius: 409px;}
+.circle4{
+    position: absolute;
+    width: 1109.11px;
+    height: 1120px;
+    left: -190px;
+    top: 274px;
+    background: rgba(82, 82, 82, 0.212);
+    border-radius: 560px;
+}
